@@ -1,0 +1,100 @@
+body, html {
+	margin: 0;
+	padding: 0;
+	background-color: #5A5754;
+}
+
+/* Interface */
+.vr {
+	width: 3px;
+	background-color: #FFFFFF;
+}
+
+.header {
+	z-index: 1000;
+	width: 100%;
+	height: 256px;
+	background-image: url('/res/image/interface_top.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+}
+
+.container {
+	width: 100%;
+	min-width: 1262px;
+}
+
+.contentContainer {
+	margin: 32px 32px;
+	background-color: #DAAC81;
+	border-radius: 16px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	width: 95%;
+	height: 856px;
+}
+
+.controlLeft {
+	width: 128px;
+	display: inline-block;
+	position: relative;
+	float: left;
+	display: table;
+	margin: 0 auto;
+}
+
+.controlRight {
+	width: 156px;
+	height: 100%;
+	float: right;
+	display: inline-block;
+}
+
+.controlRight ul {
+	list-style-type: none;
+	position: relative;
+	left: -45px;
+}
+
+.controlLeft ul {
+	list-style-type: none;
+	width: 128px;
+}
+
+.controlMain {
+	display: inline-block;
+	width: 850px;
+	height: 480px;
+	border-style: solid;
+	border-color: #986436 #6D4111;
+	outline-style: solid;
+	outline-color: #FFEC00 #FFA200;
+	position: relative;
+	top: 16px;
+}
+
+/* UI */
+.control {
+	width: 128px;
+	height: 64px;
+	position: relative;
+	left: -25px;
+	cursor: pointer;
+}
+
+.troopRow {
+	display: block;
+	width: 156px;
+}
+
+.troopRow li {
+	display: inline-block;
+	width: 48px;
+}
+
+.troopRow li img {
+	width: 48px;
+	height: 63px;
+}
